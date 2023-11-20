@@ -40,7 +40,7 @@ if __name__ == "__main__":
     backlog.add_bug(bug1)
     backlog.add_bug(bug2)
     backlog.add_bug(bug3)
-
+    
     print("All Bugs in Backlog:")
     print(backlog)
 
@@ -53,4 +53,6 @@ if __name__ == "__main__":
     print(f"Resolved Bugs for {assignee}:")
     for bug in resolved_bugs:
         print(bug)
+
+
 
