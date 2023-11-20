@@ -53,3 +53,4 @@ if __name__ == "__main__":
     print(f"Resolved Bugs for {assignee}:")
     for bug in resolved_bugs:
         print(bug)
+
